@@ -61,7 +61,40 @@ main {
 }
 
 #tabelas {
+    text-align: start;
+}
+
+#formularios .divForm{
+    background-color: #2274A5;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 30vh;
+    border-radius: 5px;
+    padding-top: 2.5rem;
+}
+
+label {
+    color: white;
+}
+
+.divForm {
     text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.divForm .button {
+    width: 10rem;
+    height: 3em;
+    border-radius: 5px;
+    background-color: #00CC66;
+    color: white;
+}
+
+input {
+    border-radius: 2px;
+    border: none;
+    height: 1.7rem;
 }
 
 h3 {
